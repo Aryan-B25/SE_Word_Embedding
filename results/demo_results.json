@@ -1,0 +1,97 @@
+{
+  "comparison_results": [
+    {
+      "word_pair": "software-program",
+      "word1": "software",
+      "word2": "program",
+      "word2vec_similarity": 0.0,
+      "transformer_similarity": 0.9755191206932068,
+      "improvement": 0.9755191206932068
+    },
+    {
+      "word_pair": "bug-error",
+      "word1": "bug",
+      "word2": "error",
+      "word2vec_similarity": 0.0,
+      "transformer_similarity": 0.9528533220291138,
+      "improvement": 0.9528533220291138
+    },
+    {
+      "word_pair": "class-object",
+      "word1": "class",
+      "word2": "object",
+      "word2vec_similarity": 0.0,
+      "transformer_similarity": 0.9439361691474915,
+      "improvement": 0.9439361691474915
+    },
+    {
+      "word_pair": "testing-debugging",
+      "word1": "testing",
+      "word2": "debugging",
+      "word2vec_similarity": 0.0,
+      "transformer_similarity": 0.9404650330543518,
+      "improvement": 0.9404650330543518
+    },
+    {
+      "word_pair": "design-architecture",
+      "word1": "design",
+      "word2": "architecture",
+      "word2vec_similarity": 0.0,
+      "transformer_similarity": 0.984260082244873,
+      "improvement": 0.984260082244873
+    },
+    {
+      "word_pair": "algorithm-method",
+      "word1": "algorithm",
+      "word2": "method",
+      "word2vec_similarity": 0.0,
+      "transformer_similarity": 0.978286862373352,
+      "improvement": 0.978286862373352
+    },
+    {
+      "word_pair": "framework-library",
+      "word1": "framework",
+      "word2": "library",
+      "word2vec_similarity": 0.0,
+      "transformer_similarity": 0.959694504737854,
+      "improvement": 0.959694504737854
+    },
+    {
+      "word_pair": "database-storage",
+      "word1": "database",
+      "word2": "storage",
+      "word2vec_similarity": 0.0,
+      "transformer_similarity": 0.9742977619171143,
+      "improvement": 0.9742977619171143
+    }
+  ],
+  "model_statistics": {
+    "word2vec": {
+      "vocabulary_size": 50,
+      "vector_size": 50,
+      "model_size_mb": 1
+    },
+    "transformer": {
+      "model_name": "distilbert-base-uncased",
+      "vocabulary_size": 30522,
+      "hidden_size": 768,
+      "model_size_mb": 268
+    }
+  },
+  "vocabulary_coverage": {
+    "test_words": 20,
+    "word2vec_coverage": 5,
+    "transformer_coverage": 20,
+    "word2vec_coverage_rate": 0.25,
+    "transformer_coverage_rate": 1.0
+  },
+  "test_configuration": {
+    "num_texts": 3,
+    "word2vec_params": {
+      "vector_size": 50,
+      "window": 10,
+      "epochs": 10
+    },
+    "transformer_model": "distilbert-base-uncased"
+  }
+}
