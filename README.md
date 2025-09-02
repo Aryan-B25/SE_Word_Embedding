@@ -8,6 +8,8 @@ This project implements a comprehensive framework for the collection, preprocess
 
 - **Rahul Velpula** (ravelpul@utica.edu)
 - **Aryan KC** (arkc@utica.edu)
+- **Unnati Shah**
+- **Siba Mishra**
 
 ## Key Features
 
